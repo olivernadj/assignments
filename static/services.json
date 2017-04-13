@@ -1,0 +1,86 @@
+{
+  "services": [
+    {
+      "service": "Marlin",
+      "cache_is_ok": true,
+      "db_is_ok": true,
+      "status": "OK",
+      "struct_cache_is_ok": true,
+      "version": "release.Marlin.20170412"
+    },
+    {
+      "service": "Marlin",
+      "cache_is_ok": true,
+      "db_is_ok": true,
+      "status": "OK",
+      "struct_cache_is_ok": true,
+      "version": "release.Dory.20170412"
+    },
+    {
+      "service": "Nemo",
+      "cache_is_ok": true,
+      "db_is_ok": true,
+      "status": "OK",
+      "struct_cache_is_ok": true,
+      "version": "release.Nemo.20170412"
+    },
+    {
+      "service": "Gill",
+      "cache_is_ok": true,
+      "db_is_ok": true,
+      "status": "OK",
+      "struct_cache_is_ok": true,
+      "version": "release.Gill.20170412"
+    },
+    {
+      "service": "Bloat",
+      "cache_is_ok": true,
+      "db_is_ok": true,
+      "status": "OK",
+      "struct_cache_is_ok": true,
+      "version": "release.Bloat.20170412"
+    }
+  ],
+  "service-map": [
+    {
+      "client": "Marlin",
+      "server": "Nemo",
+      "requests-per-minutes":  24734
+    },
+    {
+      "client": "Marlin",
+      "server": "Dory",
+      "requests-per-minutes":  29266
+    },
+    {
+      "client": "Dory",
+      "server": "Nemo",
+      "requests-per-minutes":  32458
+    },
+    {
+      "client": "Nemo",
+      "server": "Bloat",
+      "requests-per-minutes":  35637
+    },
+    {
+      "client": "Bloat",
+      "server": "Gill",
+      "requests-per-minutes":  55675
+    },
+    {
+      "client": "Bloat",
+      "server": "Nemo",
+      "requests-per-minutes":  56784
+    },
+    {
+      "client": "Nemo",
+      "server": "Gill",
+      "requests-per-minutes":  78998
+    },
+    {
+      "client": "Marlin",
+      "server": "Gill",
+      "requests-per-minutes":  84889
+    }
+  ]
+}
