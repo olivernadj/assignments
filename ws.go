@@ -1,11 +1,16 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"time"
-	"encoding/json"
+	"runtime"
+	"os/exec"
 	"io/ioutil"
+	"net"
 	"net/http"
+	"math/rand"
+	"encoding/json"
 	"github.com/gorilla/websocket"
 )
 
@@ -25,10 +30,36 @@ type msg struct {
 	} `json:"service-map"`
 }
 
+var (
+	httpListen  = flag.String("http", "127.0.0.1:8080", "host:port to listen on")
+	openBrowser = flag.Bool("openbrowser", true, "open browser automatically")
+	httpAddr string
+)
+
 func main() {
+	host, port, err := net.SplitHostPort(*httpListen)
+	if err != nil {
+		fmt.Println(err)
+	}
+	if host == "" {
+		host = "localhost"
+	}
+	if host != "127.0.0.1" && host != "localhost" {
+		fmt.Println(localhostWarning)
+	}
+	httpAddr = host + ":" + port
+
 	http.HandleFunc("/ws", wsHandler)
 	fs := http.FileServer(http.Dir("static"))
 	http.Handle("/", fs)
+	go func() {
+		url := "http://" + httpAddr
+		if waitServer(url) && *openBrowser && startBrowser(url) {
+			fmt.Println("A browser window should open. If not, please visit %s", url)
+		} else {
+			fmt.Println("Please open your web browser and visit %s", url)
+		}
+	}()
 	panic(http.ListenAndServe(":8080", nil))
 }
 
@@ -45,8 +76,10 @@ func wsHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func echo(conn *websocket.Conn) {
-	for {
-		file, err := ioutil.ReadFile("./static/services.json")
+	for i := 1; true; i++ {
+		rand.Seed(int64(i))
+		index := rand.Intn(5)
+		file, err := ioutil.ReadFile(fmt.Sprintf("./static/services.%d.json", index))
     if err != nil {
       fmt.Printf("File error: %v\n", err)
     }
@@ -55,6 +88,46 @@ func echo(conn *websocket.Conn) {
 		if err := conn.WriteJSON(m); err != nil {
 			fmt.Println(err)
 		}
-		time.Sleep(5000 * time.Millisecond)
+		time.Sleep(500 * time.Millisecond)
 	}
 }
+
+func waitServer(url string) bool {
+	tries := 20
+	for tries > 0 {
+		resp, err := http.Get(url)
+		if err == nil {
+			resp.Body.Close()
+			return true
+		}
+		time.Sleep(100 * time.Millisecond)
+		tries--
+	}
+	return false
+}
+
+func startBrowser(url string) bool {
+	var args []string
+	switch runtime.GOOS {
+	case "darwin":
+		args = []string{"open"}
+	case "windows":
+		args = []string{"cmd", "/c", "start"}
+	default:
+		args = []string{"xdg-open"}
+	}
+	cmd := exec.Command(args[0], append(args[1:], url)...)
+	return cmd.Start() == nil
+}
+
+const localhostWarning = `
+WARNING!  WARNING!  WARNING!
+
+I appear to be listening on an address that is not localhost.
+Anyone with access to this address and port will have access
+to this machine as the user running front-end assignment test.
+
+If you don't understand this message, hit Control-C to terminate this process.
+
+WARNING!  WARNING!  WARNING!
+`

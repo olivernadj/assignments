@@ -1,37 +1,44 @@
 <html>
 <head>
-    <title>WebSocket demo</title>
+    <title>Front-end assignment test</title>
+    <style type="text/css">
+        html {
+            width:100%;
+            height:100%;
+        }
+        #container {
+            background:#ccc;
+        }
+    </style>
 </head>
 <body>
+    Web socket response, regreshing every 5 secunds:
     <div id="container"></div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        (function() {
             var ws;
-
             if (window.WebSocket === undefined) {
-                $("#container").append("Your browser does not support WebSockets");
+                alert("Your browser does not support WebSockets");
                 return;
             } else {
                 ws = initWS();
             }
-
             function initWS() {
-                var socket = new WebSocket("ws://localhost:8080/ws"),
-                    container = $("#container")
+                var socket = new WebSocket("ws://127.0.0.1:8080/ws"),
+                    container = document.getElementById("container");
                 socket.onopen = function() {
-                    container.append("<p>Socket is open</p>");
+                    container.innerHTML = "<p>Socket is open</p>";
                 };
                 socket.onmessage = function (e) {
-                    //container.append("<pre>" + JSON.stringify(e.data) + "</pre>");
-                    container.html("<pre>" + JSON.stringify(e.data) + "</pre>");
+                    console.log(JSON.parse(e.data));
+                    container.innerHTML = "<pre>" + JSON.stringify(JSON.parse(e.data), null, ' ') + "</pre>";
                 }
                 socket.onclose = function () {
-                    container.append("<p>Socket closed</p>");
+                    container.innerHTML = "<p>Socket closed</p>";
                 }
                 return socket;
-            }            
-        });
+            }
+        })();      
     </script>
 </body>
 </html>
