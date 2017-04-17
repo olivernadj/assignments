@@ -41,7 +41,7 @@ front-end-assignment$ go run ws.go
 You can open your web browser and check [http://127.0.0.1:8080]
 The result must be something like this:
 
-![Browser view](./static/browser-view.png "Browser view")
+![Browser view](./static/browser-view-ok.png "Browser view")
 
 
 ### Create a front-end presentation for a given websocket data
