@@ -1,7 +1,7 @@
 # Pre-work for Sr. Front-End Developer position
 
 ## About the assignment
-As we are looking for a [Sr. Front-End Developer with strong API and WebSocket understanding](https://www.lazada.com/career-description/?id=37807). Therefore the test requires some back-end understanding - run a server like application - and of course create a front-end presentation for a given websocket data. 
+As we are looking for a [Sr. Front-End Developer with strong API and WebSocket understanding](https://www.lazada.com/career-description/?id=37807). Therefore the test requires some back-end understanding - run a server like application - and of course create a front-end presentation for a given websocket stream. 
 You also need to be familiar with version controlling. 
 
 The pre-work has some strict HOWTO restriction, but many times UPTOYOU. Just like in normal working circumstances in our office. keep the things as simple as possible, but done.
@@ -11,6 +11,7 @@ Are you ready?
 ## TODO
  - Install the environment and dependencies
  - Clone and run the application
+ - **Create a front-end presentation for a given websocket stream.**
  - Submit the assignment
 
 ### Install the environment and dependencies
@@ -44,7 +45,7 @@ The result must be something like this:
 ![Browser view](./static/browser-view-ok.png "Browser view")
 
 
-### Create a front-end presentation for a given websocket data
+### Create a front-end presentation for a given websocket stream
 Basically the main part of the test.
 Use your imagination, experience or google it how could you create a view for service map what is dynamically changeing based on the json in WebSocket.
 The application initially just print the json from WebSocket, but you need to figure out, how to build a nice and informative front end layer on it (GUI), for presenting current service map and status.
