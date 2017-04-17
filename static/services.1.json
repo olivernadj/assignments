@@ -9,7 +9,7 @@
       "version": "release.Marlin.20170412"
     },
     {
-      "service": "Marlin",
+      "service": "Dory",
       "cache_is_ok": true,
       "db_is_ok": true,
       "status": "OK",
@@ -50,37 +50,37 @@
     {
       "client": "Marlin",
       "server": "Dory",
-      "requests-per-minutes":  29266
+      "requests-per-minutes":  36675
     },
     {
       "client": "Dory",
       "server": "Nemo",
-      "requests-per-minutes":  32458
+      "requests-per-minutes":  5688
     },
     {
       "client": "Nemo",
       "server": "Bloat",
-      "requests-per-minutes":  35637
+      "requests-per-minutes":  33478
     },
     {
       "client": "Bloat",
       "server": "Gill",
-      "requests-per-minutes":  55675
+      "requests-per-minutes":  79906
     },
     {
       "client": "Bloat",
       "server": "Nemo",
-      "requests-per-minutes":  56784
+      "requests-per-minutes":  12785
     },
     {
       "client": "Nemo",
       "server": "Gill",
-      "requests-per-minutes":  78998
+      "requests-per-minutes":  9843
     },
     {
       "client": "Marlin",
       "server": "Gill",
-      "requests-per-minutes":  84889
+      "requests-per-minutes":  67835
     }
   ]
 }

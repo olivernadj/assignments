@@ -55,9 +55,9 @@ func main() {
 	go func() {
 		url := "http://" + httpAddr
 		if waitServer(url) && *openBrowser && startBrowser(url) {
-			fmt.Println("A browser window should open. If not, please visit %s", url)
+			fmt.Printf("A browser window should open. If not, please visit %v\n", url)
 		} else {
-			fmt.Println("Please open your web browser and visit %s", url)
+			fmt.Printf("Please open your web browser and visit %v\n", url)
 		}
 	}()
 	panic(http.ListenAndServe(":8080", nil))
@@ -78,7 +78,7 @@ func wsHandler(w http.ResponseWriter, r *http.Request) {
 func echo(conn *websocket.Conn) {
 	for i := 1; true; i++ {
 		rand.Seed(int64(i))
-		index := rand.Intn(5)
+		index := rand.Intn(6)
 		file, err := ioutil.ReadFile(fmt.Sprintf("./static/services.%d.json", index))
     if err != nil {
       fmt.Printf("File error: %v\n", err)
@@ -88,7 +88,7 @@ func echo(conn *websocket.Conn) {
 		if err := conn.WriteJSON(m); err != nil {
 			fmt.Println(err)
 		}
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(5000 * time.Millisecond)
 	}
 }
 
