@@ -1,8 +1,8 @@
 # Job Descriptions for Java Solution Developer
 
-## Job Title: Java Solution Developer
-## Department: IT Service Operations
-## Location: Ho Chi Minh City, Vietnam
+Job Title: Java Solution Developer
+Department: IT Service Operations
+Location: Ho Chi Minh City, Vietnam
 
 
 ## Job Summary:
