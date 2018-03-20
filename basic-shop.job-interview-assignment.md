@@ -1,0 +1,1 @@
+![Basic Shop Mockup](./basic-shop-mockup.png "Basic Shop Mockup")

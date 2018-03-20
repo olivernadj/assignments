@@ -1,88 +1,42 @@
-# Pre-work for Sr. Front-End Developer position
+# Job Interview Assignments
 
-## About the assignment
-As we are looking for a [Sr. Front-End Developer with strong API and WebSocket understanding](https://www.lazada.com/career-description/?id=37807). Therefore the test requires some back-end understanding - run a server like application - and of course create a front-end presentation for a **Microservice Architecture** based on websocket stream. 
-You also need to be familiar with version controlling. 
+I use this repository to support hiring process for software engineers, with test materials and personal toughs. I prefer to do the screening test in an open playground,
+although I pay attention what can be shared in a public repository.
 
-The pre-work has some strict HOWTO restriction, but many times UPTOYOU. Just like in normal working circumstances in our office. keep the things as simple as possible, but done.
+You may wonder why waste few hours on assignments if you are not sure about the outcome. The simple answer is you will get a competitive job offer if you probably an A-player.
+You can introduce yourself as an A-player by:
+  - have a call with corporate HR and with me [30m]
+  - finishing the home assignments [10h]
+  - have an interview and a pear programming [2h]
 
-Are you ready?
+I able to keep hire, if I hire the right people only. That is why my goal is not to fulfill open headcount, but make sure you are not a jerk or bozos, but a real team player. 
 
-## TODO
- - Install the environment and dependencies
- - Clone and run the application
- - **Create a front-end presentation for a given websocket stream.**
- - Submit the assignment
-
-### Install the environment and dependencies
-The application is written in golang. You can find installation guides here [https://golang.org/doc/install] or I can recommend this one for [Ubuntu][Ubuntu].
-```sh
-go get github.com/gorilla/websocket
-go install github.com/gorilla/websocket
-```
-
-### Clone the application.
-Please do not fork the repository as it could help/mislead other candidates. So better to just remove the origin.
-
-```sh
-~$ git clone https://github.com/olivernadj/front-end-assignment.git
-~$ cd front-end-assignment
-front-end-assignment$ git remote -v
-origin  https://github.com/olivernadj/front-end-assignment.git (fetch)
-origin  https://github.com/olivernadj/front-end-assignment.git (push)
-front-end-assignment$ git remote rm origin
-front-end-assignment$ git remote -v
-front-end-assignment$
-```
-
-### Run
-```
-front-end-assignment$ go run ws.go
-```
-You can open your web browser and check [http://127.0.0.1:8080]
-The result must be something like this:
-
-![Browser view](./static/browser-view-ok.png "Browser view")
-In this scenario, the json stram contains service status and service connectivity status in a microservice architecture. 
+Working in a team with A and A+ people is easy for those whom find joy in engineering challenges, who can turn off the outside world and flow with the task.
+Working in a team with A and A+ people is hard for those whom demotivates A-players.
 
 
-### Create a front-end presentation for a given websocket stream
-Basically the main part of the test.
-Use your imagination, experience or google it how could you create a view for service map what is dynamically changing based on the json in WebSocket.
-The application initially just print the json from WebSocket, but you need to figure out, how to build a nice and informative front end layer on it (GUI), for presenting current service map and status.
+## Open Positions
 
-Service map view must indicate:
- - the health status of the service
- - the resource status of the services
- - the connection between services and the activity of the connection
-
-Service map view should:
- - Easy to extend. New services and connection often changes
- - The implementation should be as simple as possible.
- - Ergonomic, easy to understand.
+We are looking for full stack software developers. You may master either back-end or front-end, but you need to understand each layer of the stack.
 
 
-### Submit the assignment
-Once you’ve completed, push your commitment to Github. Because your submissions occur on Github follow a particular format which includes a clearly documented README.
+### Job Descriptions
+- [Job Descriptions for Java Solution Developer](Java-Solution-Developer.md)
 
-Finally raise an issue as detailed below.
+### The Task
+[Job Interview Assignment for Full Stack, Back-End and Front-End Developer position](basic-shop.job-interview-assignment.md)
 
-![Github issue example](./static/websocket-issue-raised.png "Github issue example")
+## Closed assignments
 
-Submit your project by creating an issue on your repository and adding the Github handle (@olivernadj) to the issue body so we can review the submission.
+- [Job Interview Assignment for DevOps, Monitoring Engineer position](devops-2017/DevOps-Monitoring-Engineer.prework.md)
+- [Job Interview Assignment for Sr. Front-End Developer position](front-end-2017/Front-End-Developer.prework.md)
 
-Also be sure to include a README.md telling how it works.
 
-Please contact me if you have any question!
-```
--- 
-Best regards,
+## 
+https://workplace.stackexchange.com/questions/18696/given-a-homework-tasks-on-a-job-interview
+
+## Please contact me if you have any question.
+
 Oliver Nadj
-
-Monitoring Manager | Lazada Techhub, Vietnam | techhub.lazada.com
-oliver.nadj@lazada.com | +84 1229880451 |  Skype: nosk83 
-```
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-  [Ubuntu]: <https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04>
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
+oliver.nadj@alibaba-inc.com | +84 1229880451 |  Skype: nosk83 
