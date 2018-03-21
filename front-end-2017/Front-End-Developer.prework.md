@@ -63,7 +63,7 @@ Service map view should:
 
 
 ### Submit the assignment
-Once you’ve completed, push your commitment to Github. Because your submissions occur on Github follow a particular format which includes a clearly documented README.
+Once you've completed, push your commitment to Github. Because your submissions occur on Github follow a particular format which includes a clearly documented README.
 
 Finally raise an issue as detailed below.
 

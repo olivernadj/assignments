@@ -21,7 +21,8 @@ We are looking for full stack software developers. You may master either back-en
 
 
 ### Job Descriptions
-- [Job Descriptions for Java Solution Developer](Java-Solution-Developer.md)
+- Job Descriptions for Back-End position: [Java Solution Developer](Java-Solution-Developer.md)
+- Job Descriptions for Front-End position: [Front-End Solution Developer](Front-End-Solution-Developer.md)
 
 ### The Task
 On the following link you will find the complete assignments. It combines Back-End and/or Front-End details. It is up to you what to finish or skip. Please do not spend more than 10 hours on this task. Done is better than perfect.
