@@ -1,5 +1,4 @@
 # About Job Interview Assignments
-
 I use this repository to support hiring process for software engineers, with test materials and personal toughs. I prefer to do the screening test in an open playground,
 although I pay attention what can be shared in a public repository.
 
@@ -9,25 +8,23 @@ You can introduce yourself as an A-player by:
   - finishing the home assignments [10h]
   - have an interview and a pear programming [2h]
 
-I able to keep hire, if I hire the right people only. That is why my goal is not to fulfill open headcount, but make sure you are not a jerk or bozos, but a real team player. 
+I able to keep hire, if I hire the right people only. That is why my goal is not to fulfill open headcount, but make sure you are not a jerk or bozo, but a real team player. 
 
 Working in a team with A and A+ people is easy for those whom find joy in engineering challenges, who can turn off the outside world and flow with the task.  
 Working in a team with A and A+ people is hard for those whom demotivates A-players.
 
 
 ## Open Positions
-
-We are looking for full stack software developers. You may master either back-end or front-end, but you need to understand each layer of the stack.
-
-
-### Job Descriptions
-- Job Descriptions for Back-End position: [Java Solution Developer](Java-Solution-Developer.md)
-- Job Descriptions for Front-End position: [Front-End Solution Developer](Front-End-Solution-Developer.md)
+We are looking for full stack software developers. You may master either back-end or front-end, but you need to have understanding on the layers of the stack.
 
 ### The Task
 On the following link you will find the complete assignments. It combines Back-End and/or Front-End details. It is up to you what to finish or skip. Please do not spend more than 10 hours on this task. Done is better than perfect.
 
 [Job Interview Assignment for Full Stack, Back-End and Front-End Developer position](basic-shop.job-interview-assignment.md)
+
+### Related Job Descriptions
+- Job Description for Back-End position: [Java Solution Developer](Java-Solution-Developer.md)
+- Job Description for Front-End position: [Front-End Solution Developer](Front-End-Solution-Developer.md)
 
 ## Closed assignments
 For informative purpose only you can find some previous assignments solved by the current - hopefully your future - team mates.

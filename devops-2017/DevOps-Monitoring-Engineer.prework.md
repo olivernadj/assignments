@@ -1,7 +1,7 @@
 # [Closed] Job Interview Assignments for DevOps, Monitoring Engineer position
 
 ## About the assignment 
-The prework is try to be as simple as possible, but it combines many different technologies, basically it is a micro-service architecture .
+The prework is try to be as simple as possible, but it combines many different technologies, basically it is a micro-service architecture.
 Most probably many part of the prework you've never done before and you have to figure it out. Yeah, we would like to "see" how you deal with technical challenges, dig into it or give up.
 
 The prework has some strict HOWTO restriction, but many times UPTOYOU. Just like in normal working circumstances in our office. Again keep the things as simple as possible, but done.

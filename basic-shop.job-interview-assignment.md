@@ -15,13 +15,11 @@ Are you ready?
 
 
 ## Mockup
-
 The following mockup can give you a hint, what todo.  
 ![Basic Shop Mockup](./basic-shop-mockup.png "Basic Shop Mockup")
 
 
 ## The Task
-
 Build a Basic Shop web application with 3 pages.
  - **Basic Shop home page** is a static welcome page with links to the admin and customer pages.
  - **Admin view** is a CRUD interface where admins (or anyone who click on that link) can creat, list, modify products.
@@ -63,10 +61,10 @@ Build a Basic Shop web application with 3 pages.
 
 
 ### Full Stack must have
- - All the must have of Front- and Bach-End
+ - All the must have of Front- and Back-End
 
 ### Full Stack should have
- - All the should have of Front- and Bach-End
+ - All the should have of Front- and Back-End
 
 
 ## Submit the assignment
@@ -81,7 +79,6 @@ Submit your project by creating an issue on your repository and adding the Githu
 Also be sure to include a README.md telling how it works.
 
 ## Please contact me if you have any question.
-
 Oliver Nadj  
 Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
 oliver.nadj@alibaba-inc.com | +84 1229880451 |  Skype: nosk83  
