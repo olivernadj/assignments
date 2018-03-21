@@ -24,13 +24,15 @@ We are looking for full stack software developers. You may master either back-en
 - [Job Descriptions for Java Solution Developer](Java-Solution-Developer.md)
 
 ### The Task
-On the following link you will find the complete assignments. It combine Back-End and/or Front-End details. It is up to you what to finish or skip. Please do not spend more than 10 hours on this task. Done is better than perfect.
+On the following link you will find the complete assignments. It combines Back-End and/or Front-End details. It is up to you what to finish or skip. Please do not spend more than 10 hours on this task. Done is better than perfect.
+
 [Job Interview Assignment for Full Stack, Back-End and Front-End Developer position](basic-shop.job-interview-assignment.md)
 
 ## Closed assignments
+For informative purpose only you can find some previous assignments solved by the current - hopefully your future - team mates.
 
-- [Job Interview Assignment for DevOps, Monitoring Engineer position](devops-2017/DevOps-Monitoring-Engineer.prework.md)
-- [Job Interview Assignment for Sr. Front-End Developer position](front-end-2017/Front-End-Developer.prework.md)
+- [~~Job Interview Assignment for DevOps, Monitoring Engineer position~~](devops-2017/DevOps-Monitoring-Engineer.prework.md)
+- [~~Job Interview Assignment for Sr. Front-End Developer position~~](front-end-2017/Front-End-Developer.prework.md)
 
 ## Please contact me if you have any question.
 

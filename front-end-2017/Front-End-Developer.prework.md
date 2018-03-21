@@ -1,4 +1,4 @@
-# Job Interview Assignment for Sr. Front-End Developer position
+# [Closed] Job Interview Assignment for Sr. Front-End Developer position
 
 ## About the assignment
 As we are looking for a [Sr. Front-End Developer with strong API and WebSocket understanding](https://www.lazada.com/career-description/?id=37807). Therefore the test requires some back-end understanding - run a server like application - and of course create a front-end presentation for a **Microservice Architecture** based on websocket stream. 

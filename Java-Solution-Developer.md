@@ -34,6 +34,6 @@ We would of course be delighted if you already have mission-critical systems dev
 
 ## Please contact me if you have any question.
 
-Oliver Nadj
-Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
-oliver.nadj@alibaba-inc.com | +84 1229880451 |  Skype: nosk83 
+Oliver Nadj  
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
+oliver.nadj@alibaba-inc.com | +84 1229880451 |  Skype: nosk83  

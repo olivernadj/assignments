@@ -1,4 +1,4 @@
-# Job Interview Assignments for DevOps, Monitoring Engineer position
+# [Closed] Job Interview Assignments for DevOps, Monitoring Engineer position
 
 ## About the assignment 
 The prework is try to be as simple as possible, but it combines many different technologies, basically it is a micro-service architecture .
