@@ -4,9 +4,11 @@ although I pay attention what can be shared in a public repository.
 
 You may wonder [why waste few hours][whywastefewhours] on assignments if you are not sure about the outcome. The simple answer is you will get a competitive job offer if you probably an A-player.
 You can introduce yourself as an A-player by:
-  - have a call with corporate HR and with me [30m]
-  - finishing the home assignments [10h]
-  - have an interview and a pear programming [2h]
+  - have a call with corporate recruitment [30m]
+  - have a conference call with me and an engineer from Hangzhou, China office [1h]
+  - (most probably you are here)
+  - finishing the home assignments [10h] 
+  - have a meeting and a pear programming session [2h]
 
 I able to keep hire, if I hire the right people only. That is why my goal is not to fulfill open headcount, but make sure you are not a jerk or bozo, but a real team player. 
 
@@ -33,10 +35,9 @@ For informative purpose only you can find some previous assignments solved by th
 - [~~Job Interview Assignment for Sr. Front-End Developer position~~](front-end-2017/Front-End-Developer.prework.md)
 
 ## Please contact me if you have any question.
-
 Oliver Nadj  
 Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
-oliver.nadj@alibaba-inc.com | +84 1229880451 |  Skype: nosk83  
+oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83  
 
 [//]: # (References)
 [whywastefewhours]:<https://workplace.stackexchange.com/questions/18696/given-a-homework-tasks-on-a-job-interview>
