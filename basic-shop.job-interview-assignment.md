@@ -79,8 +79,8 @@ Submit your project by creating an issue on your repository and adding the Githu
 Also be sure to include a README.md telling how it works.
 
 ## Please contact me if you have any question.
-Oliver Nadj
-Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
+Oliver Nadj  
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
 oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83
 
 [MVP]:<https://en.wikipedia.org/wiki/Minimum_viable_product>

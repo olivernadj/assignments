@@ -53,8 +53,8 @@ Our team KPI is to commercialize and globalize Alibaba's internal purpose build 
 - The best development team in Lazada \o/
 
 ## Please contact me if you have any question.
-Oliver Nadj
-Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
+Oliver Nadj  
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
 oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83
 
 [//]: # (References)

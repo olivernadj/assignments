@@ -40,8 +40,8 @@ For informative purpose only you can find some previous assignments solved by th
 - [~~Job Interview Assignment for Sr. Front-End Developer position~~](front-end-2017/Front-End-Developer.prework.md)
 
 ## Please contact me if you have any question.
-Oliver Nadj
-Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
+Oliver Nadj  
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
 oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83
 
 [//]: # (References)
