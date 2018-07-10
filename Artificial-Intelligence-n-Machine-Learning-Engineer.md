@@ -1,8 +1,8 @@
 # Job Descriptions for Artificial Intelligence/Machine Learning Engineer
 
-| **Job Title**  | Artificial Intelligence/Machine Learning Engineer |
-| **Department** | IT Service Operations                             |
-| **Location**   | Ho Chi Minh City, Vietnam                         |
+**Job Title:** Artificial Intelligence/Machine Learning Engineer
+**Department:** IT Service Operations
+**Location:** Ho Chi Minh City, Vietnam
 
 ## Lazada TechHub Vietnam
 The Vietnam TechHub is an integral part of the Lazada ecosystem across South East Asia, providing mission critical services and solutions that affect our millions of buyers and sellers. Our TechHub in Vietnam is also increasingly important to Alibaba as several business units are built up to support Alibaba’s global expansion. The TechHub is a thriving business centre with a fantastic mix of local and international employees. We take great pride in providing our team members with a dynamic and engaging work environment where everyone has the opportunity to learn and develop their careers.

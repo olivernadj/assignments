@@ -4,8 +4,8 @@
 ## Introduction
 The task is to create a Basic Shop web application with 3 pages: Welcome, Product [CRUD][CRUD] and Shopping Cart CRUD.
 
-We have only one task, but with options for Full Stack, Back-End and Front-End.  
-A Front-End developer may use localStorage and focus on the user interface, meanwhile a Back-End developer may done with RESTful-API endpoint only. Naturally a Full Stack folk should be able to progress on both side. 
+We have only one task, but with options for Full Stack, Back-End and Front-End.
+A Front-End developer may use localStorage and focus on the user interface, meanwhile a Back-End developer may done with RESTful-API endpoint only. Naturally a Full Stack folk should be able to progress on both side.
 
 The reason why I combined the task for all stack is because the feature request usually does not care about the affinity of the developers, but the comprehensive product.
 
@@ -15,7 +15,7 @@ Are you ready?
 
 
 ## Mockup
-The following mockup can give you a hint, what todo.  
+The following mockup can give you a hint, what todo.
 ![Basic Shop Mockup](./basic-shop-mockup.png "Basic Shop Mockup")
 
 
@@ -26,7 +26,7 @@ Build a Basic Shop web application with 3 pages.
  - **Shop and cart view** is a CRUD interface for Shopping Cart plus it list only visible products.
 
 ### Back-End must have
- - Build a working web application on Java SpringMVC, Mybatis and MySQL
+ - Build a working web application on Java, Spring Boot, Mybatis and MySQL
  - Endpoints to manage products
  - Endpoints to manage cart
  - A README.md telling how it works.
@@ -54,8 +54,8 @@ Build a Basic Shop web application with 3 pages.
  - Comment or Documentation in clear English for Back-End developer as SLA
 
 ### Front-End bonus
- - Ultilization of [Ant Design][AntDesign] or any of the resources listed [HERE][awesome]
- - Ultilization of [Alibaba DvaJS][DvaJS]
+ - Utilization of [Ant Design][AntDesign] or any of the resources listed [HERE][awesome]
+ - Utilization of [Alibaba DvaJS][DvaJS]
  - Unit testing (Jest + Enzyme)
  - Usage of best practices such as BEM, DRY
 
@@ -79,9 +79,9 @@ Submit your project by creating an issue on your repository and adding the Githu
 Also be sure to include a README.md telling how it works.
 
 ## Please contact me if you have any question.
-Oliver Nadj  
-Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com  
-oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83  
+Oliver Nadj
+Staff Software Engineer | Lazada Techhub, Vietnam | www.alibabagroup.com
+oliver.nadj@alibaba-inc.com | +841229880451 | DingTalk: olivernadj |  Skype: nosk83
 
 [MVP]:<https://en.wikipedia.org/wiki/Minimum_viable_product>
 [CRUD]:<https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
