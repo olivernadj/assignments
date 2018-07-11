@@ -15,7 +15,7 @@ Our ideal candidate is someone who has a deeper knowledge of Front-End framework
 - Develop a Single-Page Applications on React stack
 - Develop and support platforms for centralized management and control of large-scale events such as the double eleven and the Olympic Games
 - Deal with the changes of Alibaba's global business, so that our products can guarantee the smooth operation under various scenarios including e-commerce, finance, cloud, entertainment, and new retail
-- Learn Alibabe key services and technologies
+- Learn Alibaba key services and technologies
 
 ## Skills & Requirements
 - Familiar with W3C standards, proficient in Web technologies, including Javascript, HTML/HTML5, CSS/CSS3, etc.
