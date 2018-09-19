@@ -7,7 +7,7 @@ You can follow the interview process and introduce yourself as an A-player:
 1. have a call with corporate recruitment. (30min)
 2. have a call with the future line manager (1 hour)
 3. (most probably you are here)
-4. finishing the home assignments (max 10 hours)
+4. finishing the home assignments (max 8 hours)
 5. have a pear or white paper programming in the Lazada TechHub office. Engineers from Hangzhou, China office will join. Foreigners can join via video conference. (3 hours)
 6. a call with Head of Department. (30min)
 7. get an offer letter (1 min) 🙂
